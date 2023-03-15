@@ -19,26 +19,26 @@ public class SalaryTest {
 
 	@Test
 	public void calDATest() {
-		assertEquals("Dearness Allowance",7300,s.calDA(),0.5);
+		assertEquals("Dearness Allowance: ",7300,s.calDA(),0.5);
 	}
 	
 	@Test
 	public void calHRATest() {
-		assertEquals("House Rent Allowance",1000,s.calHRA(),0.5);
+		assertEquals("House Rent Allowance: ",1000,s.calHRA(),0.5);
 	}
 	
 	@Test
 	public void calGrossSalaryTest() {
-		assertEquals("Gross Salary",18300,s.calGrossSalary(),0.5);
+		assertEquals("Gross Salary: ",18300,s.calGrossSalary(),0.5);
 	}
 	
 	@Test
 	public void calIncomeTaxTest() {
-		assertEquals("Income Tax",5490,s.calIncomeTax(),0.5);
+		assertEquals("Income Tax: ",5490,s.calIncomeTax(),0.5);
 	}
 	
 	@Test
 	public void calNetPayTest() {
-		assertEquals("Net Pay",12810,s.calNetPay(),0.5);
+		assertEquals("Net Pay: ",12810,s.calNetPay(),0.5);
 	}
 }
